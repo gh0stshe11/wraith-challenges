@@ -1,0 +1,11 @@
+services:
+  pyromos:
+    build: .
+    image: wraith-challenges/pyromos:latest
+    stdin_open: true
+    tty: true
+    environment:
+      - ANTHROPIC_API_KEY
+      - WRAITH_MODEL
+    # Usage:
+    #   ANTHROPIC_API_KEY=sk-ant-... docker compose run --rm pyromos
