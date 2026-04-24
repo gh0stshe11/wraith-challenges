@@ -30,7 +30,7 @@ You'll need an Anthropic API key. Sign up at
 that's more than enough to play this challenge.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wraith-challenges.git
+git clone https://github.com/gh0stshe11/wraith-challenges.git
 cd wraith-challenges
 pip install -r requirements.txt
 
